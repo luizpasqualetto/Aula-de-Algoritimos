@@ -10,7 +10,7 @@ int main() {
 
     cin >> raio;
 
-    area = raio * 3.14;
+    area = (raio * raio) * 3.14;
 
-    cout << "A area do seu circulo eh:" << area;
+    cout << "A area do seu circulo eh: " << area;
 }
