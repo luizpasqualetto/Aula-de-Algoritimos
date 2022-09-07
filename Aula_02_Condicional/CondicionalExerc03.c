@@ -1,10 +1,10 @@
-#include <iostream>
+#include <stdio.h>
 
 int main()
 {
     int lado1, lado2, lado3;
 
-    printf("Digite os 3 lados para verificar se eh um triangulo: \n");
+    printf("Digite os 3 lados para verificar se eh um triangulo \n");
 
     printf("Digite o valor do 1 lado: ");
 
@@ -25,7 +25,7 @@ int main()
         else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3) {
             printf("Os lados formam um triangulo isosceles");
         }
-        else {
+        else{
             printf("Os lados formam um triangulo escaleno");
         }
     }
