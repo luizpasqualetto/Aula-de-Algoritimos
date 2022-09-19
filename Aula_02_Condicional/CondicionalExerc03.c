@@ -18,18 +18,23 @@ int main()
 
     scanf("%d", &lado3);
 
-    if(lado1 < lado2 + lado3 && lado2 < lado1 + lado3 && lado3 < lado2 + lado1) {
-        if (lado1 == lado2 && lado1 == lado3) {
+    if(lado1 < lado2 + lado3 && lado2 < lado1 + lado3 && lado3 < lado2 + lado1) 
+    {
+        if (lado1 == lado2 && lado1 == lado3) 
+        {
             printf("Os lados formam um triangulo equilatero");
         }
-        else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3) {
+        else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3) 
+        {
             printf("Os lados formam um triangulo isosceles");
         }
-        else{
+        else
+        {
             printf("Os lados formam um triangulo escaleno");
         }
     }
-    else {
+    else 
+    {
         printf("Os lados nao formam um triangulo.");
     }
 }

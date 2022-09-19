@@ -9,14 +9,17 @@ int main()
 
     scanf("%f", &numero);
 
-    if(numero > 0) {
+    if(numero > 0) 
+    {
         printf("O numero digitado eh maior que zero");
     }
 
-    else if(numero == 0) {
+    else if(numero == 0) 
+    {
         printf("O numero digitado eh igual a zero");
     }
-    else {
+    else 
+    {
         printf("O numero digitado eh menor a zero");
     }
 }

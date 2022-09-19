@@ -19,11 +19,13 @@ int main()
 
     valorTotal = precoKwh * quantidade;
 
-    if(valorTotal <= 11.20){
+    if(valorTotal <= 11.20)
+    {
 
         printf("O valor final da sua conta eh R$11.20 e seu codigo de consumidor eh %d", codigo);
     }
-    else{
+    else
+    {
         printf("O valor final da sua conta eh R$%.2f e seu codigo de consumo eh %d", valorTotal, codigo);
     }
 }

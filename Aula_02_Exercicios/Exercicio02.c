@@ -10,10 +10,12 @@ int main()
 
     scanf("%f", &numero2);
 
-    if(numero1 > numero2){
+    if(numero1 > numero2)
+    {
         printf("O maior numero eh %.2f", numero1);
     }
-    else{
+    else
+    {
         printf("O maior numero eh %.2f", numero2);
     }
 

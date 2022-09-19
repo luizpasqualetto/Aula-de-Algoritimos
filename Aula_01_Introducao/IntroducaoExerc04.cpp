@@ -10,7 +10,8 @@ int main() {
 
     cin >> numPositivo;
 
-    if(numPositivo > 0){
+    if(numPositivo > 0)
+    {
         aoQuadrado = numPositivo * numPositivo;
 
         cout << "O quadrado do numero digitado eh: " << aoQuadrado << endl;
@@ -23,7 +24,8 @@ int main() {
 
         cout << "A raiz quadrada do numero digitado eh: " << raiz << endl;
     }
-    else {
+    else 
+    {
         cout << "O numero digitado eh igual ou menor a zero";
     }
 }

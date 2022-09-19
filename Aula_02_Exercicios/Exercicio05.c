@@ -13,13 +13,16 @@ scanf("%s", &nome);
 printf("Digite o seu salario \n");
 scanf("%f", &salario);
 
-if(salario <= 1000) {
+if(salario <= 1000) 
+{
     salarioFinal = salario * 1.20;
 }
-else if(1000.01 <= salario <= 5000) {
+else if(1000.01 <= salario <= 5000) 
+{
     salarioFinal = salario * 1.10;
 }
-else {
+else 
+{
     salarioFinal = salario;
 }
 

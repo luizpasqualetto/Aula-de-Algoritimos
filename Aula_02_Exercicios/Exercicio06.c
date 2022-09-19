@@ -16,13 +16,16 @@ int main()
 
     mediaFinal = (notaA + notaB + notaC) / 3;
 
-    if(mediaFinal >= 8.0) {
+    if(mediaFinal >= 8.0) 
+    {
         printf("Sua nota final eh %.1f, e seu conceito foi A", mediaFinal);
     }
-    else if(5.0 <= mediaFinal <= 8.0) {
+    else if(5.0 <= mediaFinal <= 8.0) 
+    {
         printf("Sua nota final eh %.1f,  e seu conceito foi B", mediaFinal);
     }
-    else {
+    else 
+    {
         printf("Sua nota final eh %.1f, e seu conceito foi C", mediaFinal);
     }
 }

@@ -12,10 +12,12 @@ int main()
 
     sobra = numero % 2;
 
-    if(sobra == 0) {
+    if(sobra == 0) 
+    {
         cout << "O numero eh par";
     }
-    else {
+    else 
+    {
         cout << "O numero eh impar";
     }
 }

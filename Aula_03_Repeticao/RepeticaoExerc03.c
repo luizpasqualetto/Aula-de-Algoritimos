@@ -12,5 +12,5 @@ int main()
         soma += numeros;
     }
 
-    printf("A soma dos 10 digitos é %f", soma);
+    printf("A soma dos 10 digitos é %.2f", soma);
 }

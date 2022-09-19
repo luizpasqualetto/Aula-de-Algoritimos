@@ -13,7 +13,8 @@ int main()
 
     scanf("%f", &salarioAtual);
 
-    switch (codigo) {
+    switch (codigo) 
+    {
         case 1:
             salarioNovo = salarioAtual * 1.50;
 
