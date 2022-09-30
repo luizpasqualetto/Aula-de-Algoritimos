@@ -2,9 +2,10 @@
 
 using namespace std;
 
-int main() {
+main() 
+{
 
-    float nota1, nota2, nota3, peso1, peso2, peso3, pesoFinal, notaFinal;
+    float nota1, nota2, nota3, peso1, peso2, peso3, notaFinal;
 
     cout << "Digite a primeira nota" << endl;
 
@@ -30,9 +31,7 @@ int main() {
 
     cin >> peso3;
 
-    pesoFinal = (peso1 + peso2 + peso3);
-
-    notaFinal = ((nota1*peso1) + (nota2*peso2) + (nota3*peso3)) / pesoFinal;
+    notaFinal = ((nota1*peso1) + (nota2*peso2) + (nota3*peso3)) / (peso1 + peso2 + peso3);
 
     cout << "A sua media final foi: " << notaFinal << endl;
 }

@@ -21,7 +21,7 @@ int main()
     printf("Digite o valor do seu consumo\n");
     scanf(" %f", &consumo);
 
-    switch(toupper(apartamento)) 
+    switch(toupper(apartamento))
     {
         case 'A':
             valorDiaria = 150;

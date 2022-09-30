@@ -2,15 +2,20 @@
 
 int main()
 {
-    float numero, soma, total;
+    float numero, soma, total, sinal;
 
     printf("Digite um numero\n");
     scanf("%f", &numero);
 
-    for(int i=1; i<=10; i++)
+    soma = 0;
+    sinal = 1;
+
+    for(int i=1; i<10; i++)
     {
-        soma = numero / i;
+        soma = numero  * sinal / i;
         total += soma;
+        sinal *= -1;
+
         printf("%.2f\n", soma);
     }
 

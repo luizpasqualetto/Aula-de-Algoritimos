@@ -2,9 +2,9 @@
 
 using namespace std;
 
-int main() {
+main() {
 
-    unsigned int numero, dobro;
+    int numero, dobro;
 
     cout << "Digite o numero positivo que gostaria de dobrar" << endl;
 

@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int main() {
+main() {
 
     int v1, v2, v3, v4, soma;
 
@@ -18,7 +20,7 @@ int main() {
 
     soma = v1 + v2 + v3 + v4;
 
-    printf("A soma dos quatro numeros eh: %d", soma);
+    printf("A soma dos quatro numeros eh: %d\n", soma);
 
-    return soma;
+    system("pause");
 }

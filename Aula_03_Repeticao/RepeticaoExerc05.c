@@ -6,13 +6,20 @@ int main()
 
     printf("Digite um numero para determinar os impares entre o 0 e esse numero dado.\n");
     scanf("%d", &numero);
-    
-    printf("Os numeros impares são: ");
-    for(int i=0; i<=numero; i++)
+
+    if(numero <= 0)
     {
-        if(i%2 != 0)
+        printf("o numero é invalido");
+    }
+    else
+    {
+        printf("Os numeros impares são: ");
+        for(int i=0; i<=numero; i++) 
         {
-            printf("%d ", i);
+            if(i%2 != 0)
+            {
+                printf("%d, ", i);
+            }
         }
     }
 }

@@ -7,18 +7,16 @@ int main()
     while(i == 0)
     {
         numero++;
-        resto = numero%3;
-        if(resto == 2)
+        if(numero%3 == 2)
         {
-            resto = numero%5;
-            if(resto == 3)
+            printf("o numero no primeiro loop eh %d\n", numero);
+            if(numero%5 == 3)
             {
-                resto = numero%7;
-                if(resto == 4)
+                printf("o numero no segundo loop eh %d\n", numero);
+                if(numero%7 == 4)
                 {
                     i++;
                     printf("O menor numero possivel cuja divisão por 3, 5 e 7 resulta em 2, 3 e 4 respectivamente eh %d.", numero);
-                    break;
                 }
             }
         }

@@ -2,22 +2,19 @@
 
 main()
 {
-    int numero, soma, fatorial;
+    float fatorial, soma, numero;
 
     printf("Digite um numero inteiro e positivo\n");
-    scanf("%d", &numero);
+    scanf("%f", &numero);
 
-    fatorial = 1;
     soma = 1;
 
-    for(int i = 1; i <= numero; i++)
+    for(int i = 1; i < numero; i++)
     {
+        fatorial = 1;
         fatorial *= i;
-        soma = soma + 1 / fatorial;
-        printf("valor de soma no for loop %d\n", soma);
-        printf("valor de fatorial no for loop %d\n", fatorial);
-        printf("valor de i no for loop %d\n", i);
+        soma += (1 / fatorial);
     }
 
-    printf("A soma dos termos utilizando a formula pedida eh: %d", soma);
+    printf("A soma dos termos utilizando a formula pedida eh: %f", soma);
 }
