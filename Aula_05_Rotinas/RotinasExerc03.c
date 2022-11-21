@@ -1,41 +1,36 @@
 #include <stdio.h>
+#include <ctype.h>
 
 char input;
 
 void validaEntrada(char *entrada);
-void loopEntrada(char entrada2);
 
 main()
 {
+    char entrada;
 
-    loopEntrada();
-    printf("Saiu do loop");
+    printf("Digite S ou N para continuar\n");
 
-}
+    validaEntrada(&entrada);
 
-void loopEntrada(char entrada2)
-{
+    printf("Entrada aprovada: %c", entrada);
 
-    printf("Digite um valor valido");
-    scanf("%d", entrada2);
-
+    return 0;
 }
 
 void validaEntrada(char *entrada)
 {
 
-    entrada = tolower(entrada);
+    char auxiliar = 's';
 
-    if(entrada == 's' || entrada == 'n')
+    scanf("%c", &auxiliar);
+
+    auxiliar = tolower(auxiliar);
+
+    while(auxiliar != 's' && auxiliar != 'n')
     {
-
-        return 0;
-
+        printf("Input invalido, por favor digite apenas S ou N\n");
+        scanf(" %c", &auxiliar);
     }
-    else
-    {
-
-        loopEntrada();
-        
-    }
+    *entrada = auxiliar;
 }

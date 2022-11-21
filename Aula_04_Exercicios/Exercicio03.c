@@ -20,7 +20,7 @@ main()
     for(i = 0; i < TAMANHO / 2; i++)
     {
         somaTotal += (vetorA[i] - vetorA[(TAMANHO - 1) - i]) * (vetorA[i] - vetorA[(TAMANHO - 1) - i]);
-        printf ("Soma total %.2lf, loop %d\n", somaTotal, i);
+        printf ("Soma total %.2lf, loop %d\n", somaTotal, (i + 1));
     }
 
     printf("O valor da soma final é: %.2lf", somaTotal);

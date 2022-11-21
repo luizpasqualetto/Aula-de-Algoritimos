@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main()
 {
     int numero, vetor[20] = {1, 9, 2, 5, 6, 8, 3, 4, 5, 7, 7, 5, 3, 2, 8, 2, 10, 3, 4, 8}, soma;

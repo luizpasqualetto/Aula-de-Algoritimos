@@ -22,7 +22,6 @@ main()
     {
         int randomChar = rand() % 26;
 
-
         vetorChars[i] = 97 + randomChar;
 
         if(vetorChars[i] == buscaChar)

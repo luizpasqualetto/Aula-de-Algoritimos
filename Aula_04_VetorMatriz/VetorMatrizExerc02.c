@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main()
 {
     int matrizA[5][3] = {1,5,6,3,2,9,5,6,2,3,6,3,2,1,2}, matrizB[5][3] = {9,2,3,7,6,4,5,8,3,1,9,7,5,4,3}, matrizSoma[5][3];
