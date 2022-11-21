@@ -21,23 +21,23 @@ int main()
     delta = (b * b) - 4 * a * c;
 
     if(delta >= 0)
-    {
+        {
 
-    raiz1 = (-b + sqrt(delta) ) / 2 * a;
+        raiz1 = (-b + sqrt(delta) ) / 2 * a;
 
-    raiz2 = (-b - sqrt(delta) ) / 2 * a;
+        raiz2 = (-b - sqrt(delta) ) / 2 * a;
 
-    printf("A primeira raiz eh %f \n", raiz1);
+        printf("A primeira raiz eh %f \n", raiz1);
 
-    printf("A segunda raiz eh %f \n", raiz2);
+        printf("A segunda raiz eh %f \n", raiz2);
 
-    printf("As raizes sao reais");
+        printf("As raizes sao reais");
 
-    }
+        }
 
     else
-    {
+        {
         printf("O delta eh menor ou igual a 0, a raiz eh complexa");
-    }
+        }
 
 }

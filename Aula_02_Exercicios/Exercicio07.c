@@ -43,13 +43,21 @@ int main()
     printf("O resumo dos seus gastos foi:\n");
     printf("Valor Diaria = %.2f\n", valorDiaria);
     printf("Valor Consumo = %.2f\n", consumo);
+
     totalDiaria = valorDiaria * diarias;
+
     printf("Total Diaria = %.2f\n", totalDiaria);
+
     subtotal = totalDiaria + consumo;
+
     printf("Subtotal = %.2f\n", subtotal);
+
     taxaServico = subtotal * 0.10;
+
     printf("Taxa de Servico = %.2f\n", taxaServico);
+
     total = subtotal + taxaServico;
+    
     printf("Total = %.2f\n", total);
 
 }

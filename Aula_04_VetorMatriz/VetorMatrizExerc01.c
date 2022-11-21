@@ -1,15 +1,18 @@
 #include <stdio.h>
+
+#define Elemento 100
+
 int main()
 {
-    int vetor[100], i;
+    int vetor[Elemento], i;
 
-    for(i = 0; i<=100; i++)
+    for(i = 0; i<=Elemento; i++)
     {
         printf("Digite um valor: \n");
         scanf("%d", &vetor[i]);
     }
 
-    for(i = 0; i<=100; i++)
+    for(i = 0; i<=Elemento; i++)
     {
         if(vetor[i] == 64)
         {
